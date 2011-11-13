@@ -7,6 +7,12 @@ Jenkins（ http://jenkins-ci.org/ ）のPluginです。
 
 How To Install
 1.プラグインのダウンロード
+以下アドレスからプラグインをダウンロード
+https://github.com/downloads/shizone/GeleeMixIntegrate/GeleeMixIntegrate.hpi
 
 2.プラグインのインストール
-
+プラグインマネージャの高度な設定タブにアクセス
+JENKINS_ADDR/pluginManager/advanced
+プラグインのアップロードから先ほどダウンロードしたバイナリをアップロード
+プラグインマネージャのインストール済みタブからJenkinsを再起動
+JENKINS_ADDR/pluginManager/installed
